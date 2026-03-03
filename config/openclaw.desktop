@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=OpenClaw Control
+Comment=Start OpenClaw Gateway and open the web interface
+Exec=sh -c "systemctl --user start openclaw-gateway.service && chromium --app=http://127.0.0.1:18789"
+Terminal=false
+Type=Application
+Categories=Utility;Development;
+Icon=utilities-terminal

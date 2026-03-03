@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Start Ollama Engine
+Comment=Run the Ollama background service silently
+Exec=sh -c "nohup ollama serve > /dev/null 2>&1 &"
+Terminal=false
+Type=Application
+Categories=Development;Utility;
+Icon=system-run
